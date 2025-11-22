@@ -3,15 +3,23 @@ i am creating a conda environmnet with DESeq2 data analysis with R and Bioconduc
 
 
 ## code
+Create conda environment
 ```{cmd}
 conda create -n R4.5WS
 
 ```
 
 
-activate conda env 
+Activate conda env 
 
 ```{cmd}
 conda activate R4.5WS
 
 ```
+
+Install R in environmnet 
+```{cmd}
+conda install conda-forge::r-base
+
+```
+
